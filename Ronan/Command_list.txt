@@ -1,0 +1,6 @@
+git add
+git commit -m "first commit"
+git remote add origin https://github.com/rubymonter/lab1part2.git
+git commit -u origin
+git pull
+git push
