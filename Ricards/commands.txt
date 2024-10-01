@@ -1,0 +1,5 @@
+$ git status
+$ git add Ricards/
+$ git commit -m "Richhi"
+$ git push origin main
+$ git pull
