@@ -1,0 +1,11 @@
+git init
+git clone
+git status
+git diff
+git add
+git remote
+git commit
+git push origin
+https://github.com/rubymonter/lab1part2
+git clone https://github.com/rubymonter/lab1part2
+// add files/changing files
