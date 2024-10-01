@@ -1,6 +1,9 @@
-git clone
+git add remote origin https://github.com/rubymonter/lab1part2
+git clone https://github.com/rubymonter/lab1part2
+// add files/changing files
 git status
 git diff
 git add
+git status
 git commit
-git push origin
+git push origin main

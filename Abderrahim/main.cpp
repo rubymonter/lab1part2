@@ -26,16 +26,21 @@ class Triangle: public Shape
 };
 class Circle: public Shape{
     public:
-    int getArea(){
-        return(pi*width);
+    int setRadius(int r){
+        radius = r;
     }
+    int getArea(){
+        return(pi*radius*radius);
+    }
+    protected:
+    int radius;
 };
 
 int main(void)
 {
     Triangle Tri;
     Circle Cir;
-    Cir.setWidth(5);
+    Cir.setRadius(7);
     Tri.setWidth(5);
     Tri.setHeight(7);
     // Print the area of the object.
